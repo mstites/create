@@ -1,4 +1,4 @@
-body{
+body {
   margin:0px;
   padding:0px;
 }
@@ -16,6 +16,7 @@ body{
   height: 46px;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 .navbar ul {
