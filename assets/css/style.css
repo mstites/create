@@ -1,14 +1,15 @@
 :root {
   --main-bg-color: #F2EEE2;
-  --main-txt-color: grey;
+  --main-txt-color: #595964;
   --bold-bg-color: #F81B84;
-  --secondary-bg-color: #43C0F6;
+  --secondary-bg-color: #48D1CC;
+  --tertiary-bg-color: #ffdf2b;
 }
 
 body {
   font-family: 'Poppins';
   margin:0px;
-  padding:0px;
+  padding:0px 0px 0px 0px;
 }
 
 /* HEADER */
@@ -16,6 +17,7 @@ body {
   overflow: hidden;
   /* background-color: #f1f1f1; */
   padding: 10px 10px;
+  background: #48D1CC;
 }
 
 .header img.logo {
@@ -33,6 +35,7 @@ body {
   position: sticky;
   top: 0;
   font-family: "Courier New", Courier, monospace;
+  padding: 30px 0px 10px 0px;
 }
 
 .navbar ul {
@@ -59,7 +62,7 @@ body {
 }
 
 .navbar li a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: var(--tertiary-bg-color);
 }
 
 .navbar li a.active {
@@ -67,7 +70,18 @@ body {
   background-color: var(--bold-bg-color);
 }
 
-.container
+.container {
+  background-color: var(--main-bg-color);
+  padding: 30px 20px 30px 30px;
+  /* TOP RIGHT BOTTOM LEFT */
+  color: var(--main-txt-color);
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 /* @media screen and (max-width: 500px) {
