@@ -31,7 +31,7 @@ body {
   background: var(--main-bg-color);
   width: 100%;
   height: 46px;
-  position: -webkit-sticky;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   font-family: "Courier New", Courier, monospace;
@@ -49,18 +49,18 @@ body {
 }
 
 .navbar li {
-  float: left;
+  display: inline-block;
   text-align: center;
 }
 
 .navbar li a {
-  display: block;
+  display: inline-block;
   color: var(--main-txt-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.
 .navbar li a:hover:not(.active) {
   background-color: var(--tertiary-bg-color);
 }
@@ -96,6 +96,10 @@ body {
   margin-right: auto;
   width: 50%;
   max-width: 800px;
+}
+
+.column {
+
 }
 
 
