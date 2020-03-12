@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   /* background-color: #f1f1f1; */
   padding: 10px 10px;
-  background: #48D1CC;
+  background: var(--secondary-bg-color);
 }
 
 .header img.logo {
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-  background: var(--main-bg-color);
+  background-color: var(--main-bg-color);
   width: 100%;
   height: 46px;
   position: -webkit-sticky; /* Safari */
@@ -125,10 +125,13 @@ body {
 
 }
 
+.row h2 {
+  text-align: center;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 600px) {
   .navbar {
     height: 180px;
     position: static;
@@ -141,5 +144,16 @@ body {
   }
   .row {
     width: 65%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .column {
+    width: 100%;
+  }
+  .column img {
+    object-fit: cover;
+    /* max-height: 50vh; */
+    width: 50vw;
   }
 }
