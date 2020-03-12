@@ -10,6 +10,7 @@ body {
   font-family: 'Poppins';
   margin:0px;
   padding:0px 0px 0px 0px;
+  background-color: var(--main-bg-color);
 }
 
 /* HEADER */
@@ -85,7 +86,6 @@ body {
 }
 
 .container {
-  background-color: var(--main-bg-color);
   padding: 15px 20px 15px 30px;
   /* TOP RIGHT BOTTOM LEFT */
   color: var(--main-txt-color);
@@ -94,12 +94,34 @@ body {
 .row {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 500px;
+  padding: 15px 20px 15px 30px;
+}
+
+.top {
+  padding: inherit;
+  padding-top: 0px;
+}
+
+.text-block {
   max-width: 800px;
   min-width: 400px;
+  width: 70%;
+  margin-left: inherit;
+  margin-right: inherit;
 }
 
 .column {
+  float: left;
+  text-align: center;
+  width: 50%;
+  max-width: 1200px;
+}
+
+.column img {
+  width: 90%;
 
 }
 
