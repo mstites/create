@@ -4,7 +4,6 @@ Subdomain for my more creative work: zines, trans resources, writing, and more
 ## To Do
 * Add alt text
 * Match colors to photo
-* Make header 50%
 
 
 ## Notes
