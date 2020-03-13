@@ -14,6 +14,7 @@ body {
 }
 
 /* HEADER */
+
 .header {
   overflow: hidden;
   padding: 10px 10px;
@@ -24,7 +25,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-height: 30vh;
 }
 
 .navbar {
@@ -82,6 +83,7 @@ body {
   max-height: 80vh;
 }
 
+/* CONTAINERS */
 .container {
   padding: 15px 20px 15px 30px;
   /* TOP RIGHT BOTTOM LEFT */
@@ -97,17 +99,13 @@ body {
   padding: 15px 20px 15px 30px;
 }
 
-.top {
+.row.top {
   padding: inherit;
   padding-top: 0px;
 }
 
-.text-block {
-  max-width: 800px;
-  min-width: 400px;
-  width: 70%;
-  margin-left: inherit;
-  margin-right: inherit;
+.row h2 {
+  text-align: center;
 }
 
 .column {
@@ -122,13 +120,27 @@ body {
 
 }
 
-.row h2 {
-  text-align: center;
+/* TEXT */
+
+.text-block {
+  max-width: 800px;
+  min-width: 400px;
+  width: 70%;
+  margin-left: inherit;
+  margin-right: inherit;
 }
+
+.zine-text {
+  padding: 5px 5px 5px 5px;
+}
+
 
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 600px) {
+  .header img {
+    width: 50%;
+  }
   .navbar {
     height: 180px;
     position: static;
@@ -145,6 +157,9 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+  .header img {
+    width: 500px;
+  }
   .column {
     width: 100%;
   }
