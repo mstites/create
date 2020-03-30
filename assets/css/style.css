@@ -156,12 +156,17 @@ ul {
 }
 
 .linkList h2 {
-  /* padding-left: 25px; */
-  /* text-align: center; */
+
+}
+
+.linkList h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .linkList a {
   font-style: normal;
+  font-weight: 600;
 }
 
 .linkList p {
