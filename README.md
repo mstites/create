@@ -5,8 +5,9 @@ Subdomain for my more creative work: zines, trans resources, writing, and more
 * Add alt text
 * Match colors to photo
 * Fix small form factor on zines page
-* add trans resources sub pages
 * Change punctuation on lists
+* spell check
+* footer with instagram, linkedin, twitter, website
 
 
 ## Notes
