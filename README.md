@@ -8,6 +8,7 @@ Subdomain for my more creative work: zines, trans resources, writing, and more
 * Change punctuation on lists
 * spell check
 * footer with instagram, linkedin, twitter, website
+* Teacher resources
 
 
 ## Notes
