@@ -107,7 +107,7 @@ ul {
 .row {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
   max-width: 1200px;
   /* min-width: 500px; */
   padding: 15px 20px 15px 30px;
@@ -120,6 +120,24 @@ ul {
 
 .row h1 {
   text-align: center;
+}
+
+.row img {
+  width: 100%;
+  max-width: 1600px;
+  max-height: 80vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row figcaption {
+  display: block;
+  text-align: center;
+  /*Text settings to align with the img*/
+  padding-top: 10px;
+  width: 100%;
+  max-width: 1600px;
 }
 
 .column {
