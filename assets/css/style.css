@@ -123,10 +123,11 @@ ul {
 }
 
 .row img {
-  width: 100%;
-  max-width: 1600px;
-  max-height: 80vh;
   display: block;
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,7 +149,7 @@ ul {
 }
 
 .column img {
-  width: 90%;
+  max-width: 90%;
 
 }
 

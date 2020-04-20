@@ -9,6 +9,7 @@ Subdomain for my more creative work: zines, trans resources, writing, and more
 * spell check
 * footer with instagram, linkedin, twitter, website
 * Teacher resources
+* Explore increasing font size
 
 
 ## Notes
