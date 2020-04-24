@@ -94,13 +94,12 @@ ul {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-color: lightblue;
 }
 
 .spread.background {
   filter: blur(10px);
   width: 100%;
-  position: absolute;
-  top: 1;
 }
 
 /* MODS */
