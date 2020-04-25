@@ -181,22 +181,18 @@ ul {
   max-width: 100em;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* GRID */
 
 .grid-container {
  display: grid;
-
  grid-column-gap: 50px;
  grid-row-gap: 50px;
-
  grid-template-columns: 30% 70%;
  grid-template-rows: auto;
+}
+
+.grid-container h3 {
+  margin-top: 0em;
 }
 
 /* TEXT */
