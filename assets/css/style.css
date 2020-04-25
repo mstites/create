@@ -181,23 +181,25 @@ ul {
   max-width: 100em;
 }
 
-.column {
-  float: left;
-  text-align: center;
-  width: 50%;
-  max-width: 75em;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.column img {
-  max-width: 90%;
+/* GRID */
 
+.grid-container {
+ display: grid;
+
+ grid-column-gap: 50px;
+ grid-row-gap: 50px;
+
+ grid-template-columns: 30% 70%;
+ grid-template-rows: auto;
 }
 
 /* TEXT */
-
-.zine-text {
-  padding: 5px 5px 5px 5px;
-}
 
 .linkList {
   max-width: 50em;
