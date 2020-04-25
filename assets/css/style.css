@@ -115,7 +115,7 @@ ul {
 
 .footer li {
   display: inline-block;
-  text-align: center;
+  align: center;
 }
 
 .footer li a {
@@ -143,9 +143,14 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  max-width: 75em;
+  max-width: 50em;
   /* min-width: 500px; */
   padding: 1em 1.25em 1em 1.875em;
+}
+
+.row.wide{
+  width: 90%;
+  max-width: 70em;
 }
 
 .row.top {
