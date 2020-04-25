@@ -3,7 +3,6 @@ Notes document for site maintainers to keep track of design tasked and planned c
 
 ## Action items
 Design:
-1. Match colors to photo
 2. Footer with social media (insta, linkedin, twitter, website)
 3. Fix small form factor on zines page
 4. Favicon
@@ -11,7 +10,7 @@ Design:
 Future exploration:
 * Change list punctuation
 * Increasing font sizes
-
+* Custom 404 page
 
 Content:
 1. Upload zines
