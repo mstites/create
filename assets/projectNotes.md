@@ -4,12 +4,12 @@ Notes document for site maintainers to keep track of design tasked and planned c
 ## Action items
 Design:
 3. Fix small form factor on zines page
-4. Favicon
 
 Future exploration:
 * Change list punctuation
 * Increasing font sizes
 * Custom 404 page
+* Update favicon
 
 Content:
 4. Add computer build
