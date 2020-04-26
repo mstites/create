@@ -13,7 +13,6 @@ Future exploration:
 
 Content:
 2. Add alt text
-3. Spell check
 4. Add computer build
 
 Should keep trans resources, but they probably need to be reordered.
