@@ -12,7 +12,6 @@ Future exploration:
 * Custom 404 page
 
 Content:
-2. Add alt text
 4. Add computer build
 
 Should keep trans resources, but they probably need to be reordered.
