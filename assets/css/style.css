@@ -221,6 +221,21 @@ ul {
   font-style: italic;
 }
 
+/* 404 */
+.p404 h1 {
+  font-size: 150px;
+  line-height: 30px;
+  font-weight: normal;
+  padding-top: .1em;
+}
+
+.p404 p {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+/* ACCESSIBILITY */
+
 @media screen and (max-width: 960px) {
   .header img {
     width: 500px;
