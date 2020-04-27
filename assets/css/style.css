@@ -300,6 +300,7 @@ ul {
   }
   .row {
     width: 90%;
+    font-size: 40px;
   }
   .grid-container {
     grid-template-columns: auto;
@@ -313,10 +314,6 @@ ul {
   }
   .grid-container h3 {
     text-align: center;
-  }
-  .footer ul {
-    padding-top: 2em;
-    padding-bottom: 2em;
   }
   .footer li a {
     font-size: 50px;
