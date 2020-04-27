@@ -3,8 +3,7 @@ Notes document for site maintainers to keep track of design tasked and planned c
 
 ## Action items
 Design:
-1. Fix small form factor on zines page
-2. Add 404 page
+1. Add 404 page
 
 Content:
 1. Add computer build

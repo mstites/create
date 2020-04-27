@@ -221,12 +221,41 @@ ul {
   font-style: italic;
 }
 
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .header img {
-    width: 50%;
+    width: 500px;
   }
+  .row {
+    width: 70%;
+  }
+  .grid-container {
+   grid-column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header img {
+    width: 500px;
+  }
+  .row {
+    width: 80%;
+  }
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  .grid-container img {
+    max-width: 50%;
+    margin-top: 2em;
+  }
+  .grid-container h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .navbar {
     height: 180px;
     position: static;
@@ -238,23 +267,58 @@ ul {
     display: grid;
   }
   .row {
-    width: 65%;
+    width: 90%;
   }
-  .text-block {
-    width: 60vw;
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  .grid-container img {
+    max-width: 70%;
+    margin-top: 2em;
+  }
+  .grid-container h3 {
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 960px) {
-  .header img {
-    width: 500px;
+@media (hover:none), (hover:on-demand) {
+  .navbar {
+    height: 500px;
+    position: static;
   }
-  .column {
-    width: 100%;
+  .navbar ul {
+    list-style-type: none;
   }
-  .column img {
-    object-fit: cover;
-    /* max-height: 50vh; */
-    width: 50vw;
+  .navbar li {
+    display: grid;
+  }
+  .navbar li a {
+    font-size: 40px;
+  }
+  .row {
+    width: 90%;
+  }
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  .grid-container img {
+    max-width: 70%;
+    margin-top: 4em;
+  }
+  .grid-container h3 {
+    text-align: center;
+  }
+  .footer ul {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .footer li a {
+    font-size: 50px;
   }
 }
