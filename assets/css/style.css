@@ -182,13 +182,19 @@ ul {
 }
 
 /* GRID */
-
 .grid-container {
- display: grid;
- grid-column-gap: 50px;
- grid-row-gap: 50px;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-rows: auto;
+}
+
+.grid-container.zine {
  grid-template-columns: 30% 70%;
- grid-template-rows: auto;
+}
+
+.grid-container.poster {
+ grid-template-columns: auto;
 }
 
 .grid-container h3 {
