@@ -278,7 +278,7 @@ ul {
 
 @media screen and (max-width: 600px) {
   .navbar {
-    height: 180px;
+    height: 250px;
     position: static;
   }
   .navbar ul {
