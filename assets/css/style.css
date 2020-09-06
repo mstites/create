@@ -297,6 +297,9 @@ ul {
 }
 
 @media (hover:none), (hover:on-demand) {
+  body {
+    font-size: 30px;
+  }
   .navbar {
     height: 630px;
     position: static;
@@ -315,7 +318,6 @@ ul {
     width: 90%;
     /* font-size: 40px; */
   }
-
   .grid-container {
     grid-row-gap: 20px;
     grid-column-gap: 20px;
