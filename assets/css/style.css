@@ -209,6 +209,7 @@ ul {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .linkList h2 {
@@ -223,15 +224,19 @@ ul {
 .linkList a {
   font-style: normal;
   font-weight: 600;
+  display: inherit;
+  margin: 1em 0em 0em 0em;
 }
 
 .linkList p {
   font-style: italic;
+  display: inherit;
+  margin: 0em 0em 1em 0em;
 }
 
-p.nested {
-  font-size: 600;
+.linkList.nested p {
   font-style: normal;
+  font-weight: 600;
 }
 
 /* 404 */
