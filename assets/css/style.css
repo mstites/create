@@ -228,7 +228,7 @@ ul {
   margin: 1em 0em 0em 0em;
 }
 
-.linkList p {
+.linkList ul p {
   font-style: italic;
   display: inherit;
   margin: 0em 0em 1em 0em;
